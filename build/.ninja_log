@@ -1,0 +1,5 @@
+# ninja log v6
+1	24	1723217456415103193	CMakeFiles/window.dir/src/main.c.o	c80b3f91e6ec9c9e
+24	53	1723217456438436576	/home/gustavooth/source/wayland_window/bin/window	1305e742a921fd6
+1	33	1723217464281787104	CMakeFiles/window.dir/src/main.c.o	c80b3f91e6ec9c9e
+34	65	1723217464315120511	/home/gustavooth/source/wayland_window/bin/window	1305e742a921fd6

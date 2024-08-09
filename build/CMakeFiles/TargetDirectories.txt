@@ -1,0 +1,3 @@
+/home/gustavooth/source/wayland_window/build/CMakeFiles/window.dir
+/home/gustavooth/source/wayland_window/build/CMakeFiles/edit_cache.dir
+/home/gustavooth/source/wayland_window/build/CMakeFiles/rebuild_cache.dir
