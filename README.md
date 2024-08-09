@@ -1,2 +1,3 @@
-# wayland_window
+# Wayland window
+
 Simple window exaple using wayland-client
