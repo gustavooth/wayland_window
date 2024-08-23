@@ -1,3 +1,3 @@
 # Wayland window
 
-Simple window exaple using wayland-client
+Simple wayland window example.
