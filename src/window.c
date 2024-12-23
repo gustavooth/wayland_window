@@ -67,10 +67,10 @@ const struct xdg_toplevel_listener top_listener = {
 };
 
 i32 alc_shm(u64 sz) {
-	int8_t name[8];
+	char name[8];
 	name[0] = '/';
 	name[7] = 0;
-	for (uint8_t i = 1; i < 6; i++) {
+	for (i32 i = 1; i < 6; i++) {
 		name[i] = (rand() & 23) + 97;
 	}
 
@@ -138,7 +138,7 @@ void registry_listener_remove(void *data, struct wl_registry *wl_registry, uint3
 }
 
 void draw(WaylandState* state) {
-
+  memset(state->pixels, 255, WIDTH * HEIGHT * 4);
 }
 
 void xsurface_configure(void* data, struct xdg_surface* xsurface, u32 serial) {
