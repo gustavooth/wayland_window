@@ -4,7 +4,7 @@
             "type": "shell",
             "label": "Build",
             "linux": {
-                "command": "${workspaceFolder}/build.sh"
+                "command": "make build"
             },
             "options": {
                 "cwd": "${workspaceFolder}"
